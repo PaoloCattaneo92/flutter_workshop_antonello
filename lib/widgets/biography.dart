@@ -43,11 +43,15 @@ class BiographyPage extends StatelessWidget {
                       ],
                     ),
                     Padding(
-                      padding: EdgeInsets.only(top: 50, bottom: 50),
+                      padding: EdgeInsets.only(top: 20, bottom: 20),
                       child: Text(
                         "Software Engineer @ Ubiquicom\nMy little pony lover\nRainbow dash best pony evah <3",
                         style: TextStyle(fontSize: 18),
                       ),
+                    ),
+                    Image.network(
+                      "https://thumbs.gfycat.com/EqualDependableAlbertosaurus-small.gif",
+                      width: MediaQuery.of(context).size.height * 0.35,
                     )
                   ],
                 ),
