@@ -30,7 +30,7 @@ class BiViCard extends StatelessWidget {
                       Icons.phone,
                       color: Theme.of(context).accentColor,
                     )),
-                Text("+393494834985", style: TextStyle(fontSize: 24)),
+                Text("+393401234567", style: TextStyle(fontSize: 24)),
               ],
             ),
             Row(
@@ -41,7 +41,7 @@ class BiViCard extends StatelessWidget {
                       Icons.mail,
                       color: Theme.of(context).accentColor,
                     )),
-                Text("paolo.cattaneo92@gmail.com",
+                Text("paolo.xyz@gmail.com",
                     style: TextStyle(fontSize: 22)),
               ],
             ),
